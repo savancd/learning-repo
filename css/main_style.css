@@ -41,19 +41,13 @@
 	max-width: 50%;
 }
 
-.section-drop-img {
-	background-color: rgb(236, 236, 236);
-	margin: 0 auto 5px auto;
-	width: 50%;
-	justify-content: center;
-	padding-bottom: 10px;
-}
-
 .html-img {
 	margin: 0 auto 5px auto;
 	display: flex;
-	width: 100%;
+	width: 50%;
 	justify-content: center;
+	box-shadow: 0 35px 0 rgb(231, 231, 231);
+	border-radius: 10px;
 }
 
 .note {
