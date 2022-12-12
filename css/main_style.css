@@ -161,6 +161,10 @@ a:active { color: var(--black);}
 /* media queries min 1008px */
 
 @media screen and (min-width: 1008px) {
+	#welcome-to-html {
+	width: 80%;
+	margin: 0 auto;
+	}
 	#banner {
 		font-size: 1.6rem;
 		align-items: center;
@@ -169,4 +173,17 @@ a:active { color: var(--black);}
 	.html-img, .note {
 		width: 70%;
 	}
+	.ol-list {
+		text-align: start;
+		margin-left: 25%;
+	}
+	.div-img-el1 {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.div-img-el1 h3{
+		width: 80%;
+		margin: 0 auto;
+	}
+
 }
