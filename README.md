@@ -16,6 +16,7 @@ I'm starting my re-education into programming with the goal to learn something n
 
 The background light color 
 - ![#D1E8E2](https://placehold.co/15x15/D1E8E2/D1E8E2.png) `#D1E8E2`
+
 The background dark mode 
 - ![#2C3531](https://placehold.co/15x15/2C3531/2C3531.png) `#2C3531`
 
