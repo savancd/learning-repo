@@ -12,4 +12,9 @@ After many years of working in the creative industry as a photographer and 3D ar
 
 I'm starting my re-education into programming with the goal to learn something new and push my mind in order to improve and broaden my knowledge and to be able to do work as Full Stack Software Developer in a year.
 
-The background color should be `#D1E8E2` for light mode and `#2C3531` for dark mode.
+###### Colors, Fonts ...
+
+The background light color `#D1E8E2` | `#2C3531` for dark mode.
+<span style="background-color: green"> Some green text </span>
+- ![#D1E8E2](https://placehold.co/15x15/D1E8E2/D1E8E2.png) `#D1E8E2`
+- ![#2C3531](https://placehold.co/15x15/2C3531/2C3531.png) `#2C3531`
