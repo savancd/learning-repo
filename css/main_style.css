@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo&family=Montserrat:wght@500&display=swap');
+
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -14,67 +17,106 @@ body {
 	--white: #fff;
 	--yellow: rgb(212, 156, 0);
 	--red: #ff0000;
+    --light-blue: rgba(0, 136, 169, .8);
 }
 
-/* banner start */
+/* start top menu */
 
-#banner {
-    width: 100%;
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
-}
-
-#banner img{
-    width: 100%;
-    position: absolute;
-    top: -250px;
-}
-
-/* banner end */
-
-#wrapper {
-    width: 100%;
-}
-
-
-#vertical-menu {
-    display: block;
-    width: 10%;
-    height: 100vh;
-    padding: 0;
-    margin: 0px 0;
-    background: var(--light-gray);
-    float: left;
-}
-
-#vertical-menu li {
-    margin: 5px auto;
-    padding-left: 1rem;
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--white);
     text-decoration: none;
 }
 
-
-#vertical-menu a {
-    height: 30px;
-    color: var(--black);
-    font: 1.2rem Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
-}
-
-#vertical-menu a:hover, a.active {
-    background: var(--red);
-    color: #FFF;
-}
-
-#right-div {
-    width: 90%;
-    height: 100vh;
-    padding: 0;
-    margin: 0px auto;
-    background: #333;
+.btn {
     float: right;
+    margin: 0 0 0 auto;
 }
+
+header {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 10px 10%;
+    background-color: var(--black);
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    margin-left: 3rem;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: var(--light-blue);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: var(--light-blue);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: var(--light-blue);
+}
+
+/* end top menu */
+
+/* banner start */
+
+#paralax-img {
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.last {
+  position: absolute;
+  right: 5vw;
+  width: 50%;
+  text-align: right;
+  padding-bottom: 10px;
+  margin-top: 90px;
+}
+
+section .title div.last {
+    position: absolute;
+    z-index: 1;
+    color: var(--white);
+    font-size: 2vw;
+
+    line-height: 2vw;
+    font-weight: 600;
+    letter-spacing: 0.25vw;
+    font-family: "Lato", sans-serif;
+    max-width: 80%;
+    float: right;
+
+
+}
+
+
+/* banner end */
