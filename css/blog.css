@@ -11,6 +11,26 @@ body {
 }
 
 
-#side-nav, #top-nav {
-    padding-top: 150px;
+:root {
+	--black: #000;
+	--middle-gray: rgb(129, 129, 129);
+    --light-gray: rgb(223, 223, 223);
+	--white: #fff;
+	--yellow: rgb(212, 156, 0);
+	--red: #ff0000;
+    --light-blue: rgba(0, 136, 169, .8);
+}
+
+#left-menu-in-inner li {
+    color: var(--black);
+}
+
+#side-nav {
+    float: left;
+    width: 15%;
+}
+
+.main-content {
+    float: right;
+    width: 85%;
 }
