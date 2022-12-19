@@ -1,10 +1,15 @@
 # Self Learning Development
 
 This is a self-directed learning progress/process.
-
 This repository was created so that I could access it and work from anywhere. 
 
 This project started  on: 08.12.2022 at 04:14am
+
+This is mashup of a lot of projects that I used in my self learning process.
+
+## All the files are separate projects that i used in learning process.
+## This Learning repo is not intented to be fully functional website or project, all is made to be a collection of notes to myself where I can always go back and re-remember how to do some stuff.
+> 
 
 ## Little about myself 
 
