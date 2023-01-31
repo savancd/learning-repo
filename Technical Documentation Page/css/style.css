@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --grey: #edf1f4;
+    --brown: 37383d;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    background: var(--grey);
+    max-height: 600px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hero-yugo {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;   
+}
+
+.hero-yugo > .flex-item {
+    flex: auto;
+}
+
+.hero-yugo > .flex-item1 {
+    width: 5rem;
+    margin-top: -2rem;
+}
+
+.logo img{
+    max-width: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--brown)
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3rem;
+    float: right;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: block;
+}
+
+.row img {
+    height: 100%;
+}
+
+@media screen (min-width: 640px) {
+    h3 {
+        font-size: 8rem;
+    }
+}
+
+
+
+/* NAVBAR */
+
+#navbar {
+    position: relative;
+    min-width: 290px;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    border-right: solid medium;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+#main-doc {
+    position: relative;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
