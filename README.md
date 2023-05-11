@@ -15,7 +15,7 @@ This is mashup of a lot of projects that I used in my self learning process.
 
 ## Little about myself 
 
-After many years of working in the creative industry as a photographer and 3D artist at VFX studio.
+I am 3D Artist who have interest & like programing so with all this projects & excercises I am trying to learn something new & to extend my knowledge.
 
-I'm starting my re-education into programming with the goal to learn something new and push my mind in order to improve and broaden my knowledge and to be able to do work as Full Stack Software Developer in a year.
+
 
