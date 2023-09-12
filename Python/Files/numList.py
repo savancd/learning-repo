@@ -1,3 +1,5 @@
+# This is my first attempt to make something my own
+
 
 charstr = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM"
 chars = list(charstr)
