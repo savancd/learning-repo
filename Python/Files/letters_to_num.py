@@ -1,34 +1,42 @@
+import random
+
 serbian_alphabet_mapping = {
-    'A': 1, 'B': 2, 'C': 3, 'D': 4, 'Đ': 5, 'E': 6, 'F': 7, 'G': 8, 'H': 9, 'I': 10,
-    'J': 11, 'K': 12, 'L': 13, 'Lj': 14, 'M': 15, 'N': 16, 'Nj': 17, 'O': 18, 'P': 19,
-    'R': 20, 'S': 21, 'T': 22, 'Ć': 23, 'U': 24, 'V': 25, 'Z': 26, 'Š': 27, 'Đž': 28, 'Č': 29, 'Ž': 30
+    'А': 1, 'Б': 2, 'В': 3, 'Г': 4, 'Д': 5, 'Ђ': 6, 'Е': 7, 'Ж': 8, 'З': 9, 'И': 10,
+    'Ј': 11, 'К': 12, 'Л': 13, 'Љ': 14, 'М': 15, 'Н': 16, 'Њ': 17, 'О': 18, 'П': 19,
+    'Р': 20, 'С': 21, 'Т': 22, 'Ћ': 23, 'У': 24, 'Ф': 25, 'Х': 26, 'Ц': 27, 'Ч': 28,
+    'Џ': 29, 'Ш': 30, ' ': 0
 }
 
 def calculate_numbers_from_name(name):
     name = name.upper()  # Convert the name to uppercase for consistent mapping
-    numbers = {}
-    result = []
+    numbers = []
 
     for letter in name:
         if letter in serbian_alphabet_mapping:
-            if letter in numbers:
-                result.append(numbers[letter])
-            else:
-                if len(numbers) < 10:
-                    numbers[letter] = 30 + len(numbers) + 1
-                else:
-                    numbers[letter] = len(numbers) - 9
-                result.append(serbian_alphabet_mapping[letter])
+            numbers.append(serbian_alphabet_mapping[letter])
         else:
-            result.append(0)  # Use 0 for characters not in the mapping
+            numbers.append(0)  # Use 0 for characters not in the mapping
 
-    return result
+    return numbers
+
+def calculate_average_numbers(numbers, birth_month, birth_date, birth_year):
+    # Generate 7 average numbers from the sum of name numbers, birth month, birth date, and birth year
+    total_sum = sum(numbers) + int(birth_month) + int(birth_date) + int(birth_year)
+    average_numbers = [random.randint(1, 39) for _ in range(7)]
+    return average_numbers
 
 def main():
     name = input("Enter a name: ")
-    numbers = calculate_numbers_from_name(name)
 
-    print("Mapped numbers for the name:", numbers)
+    birth_month = input("Enter the birth month (e.g., 5): ")
+    birth_date = input("Enter the birth date (e.g., 15): ")
+    birth_year = input("Enter the birth year (e.g., 1990): ")
+
+    name_numbers = calculate_numbers_from_name(name)
+    average_numbers = calculate_average_numbers(name_numbers, birth_month, birth_date, birth_year)
+
+    print("Mapped numbers for the name:", name_numbers)
+    print("Average numbers:", average_numbers)
 
 if __name__ == "__main__":
     main()
