@@ -78,6 +78,7 @@
 >> #### Expressions
 
 | Numeric Expressions | Operator | Opeartion |
+| ------------------- | :--------:  | :---------: |
 | Because of the lack of mathematical symbols on computer keyboards - we use "computer-speak" to express the classic math operations | + | Addition |
 | Asterisk is miltiplication | - | Subtraction |
 | Exponentiation (raise to a power) looks different than in math | * | Multiplication |
