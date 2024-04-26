@@ -1,4 +1,4 @@
->> ### [Continue from 1:06:21h] (https://youtu.be/8DvywoWv6fI?t=3981)
+>> ### [Continue from 1:11:20h] (https://youtu.be/8DvywoWv6fI?t=4280)
 
 
 --  Reserved Words
@@ -39,27 +39,27 @@
 * in
 * raise
 
-> ####  Constants
+####  Constants
 >> - Fixed values such as numbers, letters, and strings, are called "constants" because their value does not change
 >
 >> - Numeric **constants** are as you expect
 >
 >> - String **constants** use single quotes (') or double quotes (")
 >
-> ####  Variables
+####  Variables
 >> - A **variable** is a named place in the memory where a programmer can store data and later retrieve the data using the **variable** "name"
 >
 >> - Programmers get to choose the names of the **variables**
 >
 >> - You can change the contents of a **variable** in a later statenment
 >
-> #### Python Variable Name rules
+#### Python Variable Name rules
 >
 >> - Must start with a letter or underscore _
 >
 >> - Must consist of letters, numbers, and underscores
 >
->> - Case Sensitive
+#### Case Sensitive
 >
 >> **Good:** spam eggs spam23 - use **_speed** only in specific cases and only if python told to use it as a **variable name**
 >
@@ -75,17 +75,24 @@
 >
 >> **The right side is an expression.** Once the expression is evaluated, the result is placed in (assigned to) the variable on the left side (i.e., x)
 >
->> #### Expressions
+#### Expressions
 
 | Numeric Expressions | Operator | Opeartion |
 | ------------------- | :--------:  | :---------: |
 | Because of the lack of mathematical symbols on computer keyboards - we use "computer-speak" to express the classic math operations | + | Addition |
-| Asterisk is miltiplication | - | Subtraction |
-| Exponentiation (raise to a power) looks different than in math | * | Multiplication |
+| | - | Subtraction |
+| Asterisk is miltiplication  | * | Multiplication |
 |   | / | Division |
-|   | ** | Power |
+| Exponentiation (raise to a power) looks different than in math  | ** | Power |
 |   | % | Remainder |
 
+#### Order of evaluation
+
+- When we string operators together - Python must know which one to do first
+- This is called "operator precendence"
+- Which operator "takes precendence" over others?
+
+>> x = 1 + 2 * 3 - 4 / 5 ** 6
 
 
 
