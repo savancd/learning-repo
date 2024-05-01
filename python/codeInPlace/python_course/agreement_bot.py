@@ -5,19 +5,10 @@ the answer if you get too stuck or want to check your work!
 """
 
 def main():
-    anton = 21
-    beth = 6 + anton
-    chen = 20 + beth
-    drew = chen + anton
-    ethan = chen
-
-    print("Anton is " + str(anton))
-    print("Beth is " + str(beth))
-    print("Chen is " + str(chen))
-    print("Drew is " + str(drew))
-    print("Ethan is " + str(ethan))
-
-
+    
+    animal = input("What is your favorite animal? ")
+   
+    print("My favorite animal is also " + animal + "!")
 
 
 # There is no need to edit code beyond this point

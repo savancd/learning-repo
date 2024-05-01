@@ -5,19 +5,10 @@ the answer if you get too stuck or want to check your work!
 """
 
 def main():
-    anton = 21
-    beth = 6 + anton
-    chen = 20 + beth
-    drew = chen + anton
-    ethan = chen
-
-    print("Anton is " + str(anton))
-    print("Beth is " + str(beth))
-    print("Chen is " + str(chen))
-    print("Drew is " + str(drew))
-    print("Ethan is " + str(ethan))
-
-
+# Cast the input to a float so we can do math with it!
+    num = float(input("Type a number to see its square: ")) 
+# num * num is equivalent to num ** 2. The ** operator raises something to a power!
+    print(str(num) + " squared is " + str(num ** 2)) 
 
 
 # There is no need to edit code beyond this point
