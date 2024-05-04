@@ -1,5 +1,5 @@
 def main():
-    
+
     print("This program adds two numbers.")
 
     num1 = input("Rnter first number: ")
